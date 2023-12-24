@@ -7,7 +7,15 @@ function App() {
       <header className="App-header">
         <h1>React Weather App</h1>
       </header>
-      <p>This was coded by Kagiso Makgaba, open-sourced on <a href="/"> Github </a>and hosted on <a href="/">Netlify</a></p>
+      <p>
+        This was coded by Kagiso Makgaba, open-sourced on{" "}
+        <a href="https://github.com/KagisoMakgaba1/react-weather-app">
+          {" "}
+          Github{" "}
+        </a>
+        and hosted on{" "}
+        <a href="https://frolicking-mandazi-697d40.netlify.app">Netlify</a>
+      </p>
     </div>
   );
 }
