@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
+import Weather from "./Weather";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>React Weather App</h1>
-      </header>
+      <div className="container">
+      <Weather />
+      </div>
       <p>
         This was coded by Kagiso Makgaba, open-sourced on{" "}
         <a href="https://github.com/KagisoMakgaba1/react-weather-app">
@@ -16,6 +17,7 @@ function App() {
         and hosted on{" "}
         <a href="https://frolicking-mandazi-697d40.netlify.app">Netlify</a>
       </p>
+      
     </div>
   );
 }
