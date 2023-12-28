@@ -11,7 +11,7 @@ body {
 }
 
 .weather {
-    padding: 20px;
+  padding: 20px;
 }
 .weather h1 {
   text-align: left;
@@ -22,10 +22,11 @@ body {
   text-align: left;
 }
 
-.main-temp {
+.weather .main-temp {
   font-size: 60px;
 }
-.temp {
+
+.weather .temp {
   text-align: left;
 }
 
@@ -39,7 +40,6 @@ body {
 
 .info {
   background-color: rgba(255, 255, 255, 0.3);
- 
 }
 
 .weather button.icon {
@@ -59,15 +59,20 @@ body {
   border-bottom: 2px solid #dcdcdc;
   padding-left: 15px;
   border-radius: 0px;
-
 }
 
 .weather input::placeholder {
-    color: rgb(237, 231, 231);
-    font-size: 19px;
+  color: rgb(237, 231, 231);
+  font-size: 19px;
 }
 
 .weather sup {
-    position: relative;
-    top: -30px;
+  position: relative;
+  top: -30px;
+}
+
+.weather .icon {
+  position: relative;
+  top: 32px;
+  margin-right: 5px;
 }
