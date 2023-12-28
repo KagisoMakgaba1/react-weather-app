@@ -10,11 +10,14 @@ body {
   background-attachment: fixed;
 }
 
-h1 {
+.weather {
+    padding: 20px;
+}
+.weather h1 {
   text-align: left;
 }
 
-ul {
+.weather ul {
   list-style: none;
   text-align: left;
 }
@@ -35,5 +38,36 @@ ul {
 }
 
 .info {
-    background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+ 
+}
+
+.weather button.icon {
+  top: 7px;
+  right: 3%;
+  z-index: 1;
+  border: none;
+  background: none;
+  color: rgba(251, 185, 1, 0.8);
+}
+
+.weather input#search {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #dcdcdc;
+  padding-left: 15px;
+  border-radius: 0px;
+
+}
+
+.weather input::placeholder {
+    color: rgb(237, 231, 231);
+    font-size: 19px;
+}
+
+.weather sup {
+    position: relative;
+    top: -30px;
 }

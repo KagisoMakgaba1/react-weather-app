@@ -13,11 +13,13 @@ export default function Weather() {
                   type="search"
                   placeholder="Enter city name.."
                   className="form-control"
+                  id="search"
+                  autoFocus="on"
                 />
               </div>
               <div className="col-2">
-                <button type="submit" className="btn btn-secondary">
-                  Search
+                <button className="icon" type="submit">
+                  <i className="fa-solid fa-search"></i>
                 </button>
               </div>
             </div>
@@ -28,6 +30,9 @@ export default function Weather() {
             <li>Tuesday 20:00</li>
           </ul>
           <div className="temp">
+            <span>
+              <i class="fa-regular fa-sun fa-2x"></i>
+            </span> 
             <span className="main-temp">18</span> <sup>℃</sup> <sup>|</sup>
             <sup> ℉</sup>
           </div>
