@@ -1,0 +1,8 @@
+.temp a {
+    text-decoration: none;
+    color: white;
+}
+
+.temp .active {
+    color: rgba(251, 185, 1, 0.8);
+}

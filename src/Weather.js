@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import WeatherIcon from "./WeatherIcon";
+import WeatherTemp from "./WeatherTemp";
 import FormatDate from "./FormatDate";
 import axios from "axios";
 import "./Weather.css";
@@ -71,15 +71,8 @@ export default function Weather(props) {
                 <FormatDate date={data.date} />
               </li>
             </ul>
-
-            <div className="temp">
-              <span className="icon">
-                <WeatherIcon code={data.icon} size={82} />
-              </span>
-              <span className="main-temp">{Math.round(data.temperature)}</span>{" "}
-              <sup>℃</sup> <sup>|</sup>
-              <sup> ℉</sup>
-            </div>
+            <WeatherTemp celsius={data.temperature} icon={data.icon} />
+            <br />
             <div className="description">{data.description}</div>
           </div>
           <div className="col-4 mt-5 info">

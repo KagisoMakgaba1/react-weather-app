@@ -9,7 +9,7 @@ function App() {
       <Weather defaultCity="Pretoria" />
       </div>
       <p>
-        This was coded by Kagiso Makgaba, open-sourced on{" "}
+        This project was coded by Kagiso Makgaba, open-sourced on{" "}
         <a href="https://github.com/KagisoMakgaba1/react-weather-app">
           {" "}
           Github{" "}
