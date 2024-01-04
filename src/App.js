@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <div className="container">
       <Weather defaultCity="Pretoria" />
-      </div>
-      <p>
+     </div>
+      <footer>
         This project was coded by Kagiso Makgaba, open-sourced on{" "}
         <a href="https://github.com/KagisoMakgaba1/react-weather-app">
           {" "}
@@ -16,8 +16,8 @@ function App() {
         </a>
         and hosted on{" "}
         <a href="https://frolicking-mandazi-697d40.netlify.app">Netlify</a>
-      </p>
-      
+      </footer>
+       
     </div>
   );
 }

@@ -10,16 +10,20 @@
   }
 }
 
-.App {
+/*.App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-}
+}*/
 
 .container {
   border: 1px solid #DADCE0;
+  margin-top: 60px;
 }
 
+footer {
+  font-size: 14px;
+}
