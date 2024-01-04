@@ -1,6 +1,16 @@
-
+.WeatherForecast {
+  background-color: rgba(255, 255, 255, 0.3);
+}
 
 .WeatherForecast .ForecastTemp-min {
     color:rgba(251, 185, 1, 0.8) ;
     margin-left: 5px;
+}
+
+.WeatherForecast .dailyForecast {
+    padding: 10px 30px;
+}
+
+.WeatherForecast .dailyForecast:hover {
+    background-color:rgba(251, 185, 1, 0.4) ;
 }

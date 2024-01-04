@@ -59,7 +59,7 @@ export default function Weather(props) {
                 </div>
                 <div className="col-2">
                   <button className="icon" type="submit">
-                    <i className="fa-solid fa-search"></i>
+                    <i className="fa-solid fa-search fa-2x"></i>
                   </button>
                 </div>
               </div>

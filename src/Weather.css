@@ -38,6 +38,10 @@ body {
   color: black;
 }
 
+.info:hover {
+  background-color:rgba(251, 185, 1, 0.4) ;
+}
+
 .info {
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -76,3 +80,4 @@ body {
   top: 32px;
   margin-right: 5px;
 }
+
