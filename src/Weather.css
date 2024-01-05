@@ -13,6 +13,7 @@ body {
 .weather {
   padding: 20px;
 }
+
 .weather h1 {
   text-align: left;
 }
@@ -32,6 +33,8 @@ body {
 
 .description {
   text-align: left;
+  text-transform: capitalize;
+  font-size: 20px;
 }
 
 .more-info {
@@ -75,9 +78,30 @@ body {
   top: -30px;
 }
 
+.weather .date {
+  font-size: 20px;
+}
+
 .weather .icon {
   position: relative;
   top: 32px;
   margin-right: 5px;
 }
 
+@media  (max-width: 900px) {
+ .weather .main-temp {
+  font-size: 50px;
+}
+
+.weather h1 {
+  font-size: 30px;
+}
+
+.weather .date {
+  font-size: 15px;
+}
+
+.description {
+  font-size: 15px;
+}
+}

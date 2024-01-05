@@ -1,8 +1,22 @@
 .temp a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
+
+.temp sup:hover {
+  font-size: 20px;
 }
 
 .temp .active {
-    color: rgba(251, 185, 1, 0.8);
+  color: rgba(251, 185, 1, 0.8);
+}
+
+.temp .main-temp:hover {
+  font-size: 70px;
+}
+
+@media (max-width: 900px) {
+  .temp .main-temp:hover {
+    font-size: 60px;
+  }
 }

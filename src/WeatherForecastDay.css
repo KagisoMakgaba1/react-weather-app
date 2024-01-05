@@ -1,3 +1,7 @@
 .ForecastTemp:hover {
 font-size: 30px;
 }
+
+.ForecastDay {
+    color: black;
+}
