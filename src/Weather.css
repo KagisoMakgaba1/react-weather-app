@@ -88,7 +88,7 @@ body {
   margin-right: 5px;
 }
 
-@media  (max-width: 900px) {
+@media  (max-width: 760px) {
  .weather .main-temp {
   font-size: 50px;
 }
@@ -104,4 +104,6 @@ body {
 .description {
   font-size: 15px;
 }
+
+
 }

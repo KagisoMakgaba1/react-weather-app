@@ -44,7 +44,7 @@ export default function Weather(props) {
     return (
       <div className="weather">
         <div className="row mb-4">
-          <div className="col-8">
+          <div className="col-md-8">
             <form className="mt-3" onSubmit={handleSubmit}>
               <div className="row">
                 <div className="col-10">
@@ -75,7 +75,7 @@ export default function Weather(props) {
             <br />
             <div className="description">{data.description}</div>
           </div>
-          <div className="col-4 mt-5 info">
+          <div className="col-md-4 mt-5 info">
             <div className="more-info">Today's Weather Condition</div>
             <hr />
             <ul>
